@@ -1,10 +1,7 @@
 import { useEffect, useState } from 'react'
-import { Customer, Product } from 'types'
 
 const GettingStarted = () => {
-  const [customer, setCustomer] = useState<Customer>()
-  const [product, setProduct] = useState<Product>()
-  const [metrics, setMetrics] = useState(null)
+  
   const [loadTime, setLoadTime] = useState(0)
   const [domLoadTime, setDomLoadTime] = useState(0)
   useEffect(() => {
