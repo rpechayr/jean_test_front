@@ -1,9 +1,6 @@
 import { useEffect, useState } from 'react'
 import { Customer, Product } from 'types'
 
-import CustomerAutocomplete from 'app/components/CustomerAutocomplete'
-import ProductAutocomplete from 'app/components/ProductAutocomplete'
-
 const GettingStarted = () => {
   const [customer, setCustomer] = useState<Customer>()
   const [product, setProduct] = useState<Product>()
